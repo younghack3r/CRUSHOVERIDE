@@ -37,8 +37,10 @@ unicodes = ['\u0430', '\u03F2', '\u0435', '\u043E', '\u0440', '\u0455', '\u0501'
 
 def message():
     system('clear')
-    print ('''                                                                   
-{0                %%%%℅℅℅℅℅℅%%%%%
+    print ('''    
+            %%%%%%%%%%%%&&&
+	     MRX THE BEST
+{0          %%%%℅℅℅℅℅℅%%%%%
                      /
                     /
                    /
@@ -59,11 +61,11 @@ def message():
                   Website:youhacker.wordpress.com
                   Github:https://github.com/younghack3r
                 	 ''')   
-			 [ UNDEAD{0}SEC{1} from BR{1}AZIL ]
--> github.com/younghack3r
--> LOVE YOU BRENDA      
-                 
-How to use:
+			
+
+
+                
+''' How to use:
 
  Insert name: example
  Insert level domain: .com'''.format(RED, END))
