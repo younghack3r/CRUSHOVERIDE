@@ -46,7 +46,7 @@ def message():
                    /
                   /
   ```````        /
-  (' ? ' )      
+  (' ? ' ) <____/
     |  |
     |  |
     |  |===>.     
@@ -65,10 +65,10 @@ def message():
 
 
                 
-''' How to use:
 
- Insert name: example
- Insert level domain: .com'''.format(RED, END))
+
+
+
 
 def makeEvil(char, unicd, uninum, newurl, end):
     print('\n{2}[*] Char replaced: %s\n[*] Using Unicode: %s\n[*] Unicode number: %s\n{0}[*] Evil url: %s%s{1}\n-------------------------------'.format(GREEN, END, YELLOW) % (char, unicd, uninum, newurl, end))
@@ -257,7 +257,7 @@ def checkURL():
 # -------------- END CHECKURL MODULE ----------------- #
 def Runner():
     message()
-    print ('\nSelect an option: \n\n{0}[{1}1{0}]{1} Generate evil urls\n{0}[{1}2{0}]{1} Detect evil urls'.format(RED, END))
+    print ('\nSelect an option: \n\n{0}[{1}1{0}]{1} Brenda do you love godfrey\n{0}[{1}2{0}]{1} you love someone not Godfrey .format(RED, END))
     opt = input('\n>{0}>{1}> '.format(RED, END))
     if opt == '1':
         main()
