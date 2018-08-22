@@ -75,8 +75,8 @@ def makeEvil(char, unicd, uninum, newurl, end):
 
 def main():
     message()
-    url = input("\n{0}>{1} Insert name: ".format(RED, END))
-    end = input("\n{0}>{1} Insert level domain: ".format(RED, END))
+    url = input("\n{0}>{1} are you sure you love godfrey: ".format(RED, END))
+    end = input("\n{0}>{1} how many  percent?: ".format(RED, END))
     url = url.lower()
     urlMore = url
     urlChars = ''
@@ -257,7 +257,7 @@ def checkURL():
 # -------------- END CHECKURL MODULE ----------------- #
 def Runner():
     message()
-    print ('\nSelect an option: \n\n{0}[{1}1{0}]{1} Brenda do you love godfrey\n{0}[{1}2{0}]{1} you love someone not Godfrey .format(RED, END))
+    print ('\nSelect an option: \n\n{0}[{1}1{0}]{1} Brenda do you love godfrey\n{0}[{1}2{0}]{1} you love someone not Godfrey\n' .format(RED, END))
     opt = input('\n>{0}>{1}> '.format(RED, END))
     if opt == '1':
         main()
