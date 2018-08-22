@@ -15,8 +15,8 @@ from socket import socket, AF_INET, SOCK_STREAM, gethostbyname, gaierror
 
 version = python_version().startswith('2', 0, len(python_version()))
 if version:
-    print('Are you using python version {}\n'
-          'Please, use version 3.X of python'.format(python_version()))
+    print('you are fucking boy you cant run this program was not designed 4u{}\n'
+          'Please,go to Termux and run agan'.format(python_version()))
     exit(1)
 
 from os import system
