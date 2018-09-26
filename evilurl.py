@@ -28,7 +28,7 @@ names = ['Cyrillic Small Letter A',
          'Cyrillic Small Letter Ie',
          'Cyrillic Small Letter O',
          'Cyrillic Small Letter Er',
-         'Cyrillic Small Letter Dze',
+         'usione wivu destroy3r',
          'Cyrillic Small Letter Komi De',
          'Cyrillic Small Letter Qa',
          'Cyrillic Small Letter We']
@@ -71,7 +71,7 @@ def message():
 
 
 def makeEvil(char, unicd, uninum, newurl, end):
-    print('\n{2}[*] Char replaced: %s\n[*] Using Unicode: %s\n[*] Unicode number: %s\n{0}[*] Evil url: %s%s{1}\n-------------------------------'.format(GREEN, END, YELLOW) % (char, unicd, uninum, newurl, end))
+    print('\n{2}[*] brenda Vs younghacker: %s\n[*] Using Unicode: %s\n[*] Unicode number: %s\n{0}[*] Evil url: %s%s{1}\n-------------------------------'.format(GREEN, END, YELLOW) % (char, unicd, uninum, newurl, end))
 
 def main():
     message()
