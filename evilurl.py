@@ -33,7 +33,7 @@ names = ['Cyrillic Small Letter A',
          'Cyrillic Small Letter Qa',
          'Cyrillic Small Letter We']
 
-unicodes = ['\u0430', '\u03F2', '\u0435', '\u043E', '\u0440', '\u0455', '\u0501', '\u051B', '\u051D']
+unicodes = ['\Root', '\D3stro3r', '\Trojan', '\Root_exploit', '\infinityvirus', '\master_mind', '\Mega_mind', '\anonymous', '\hacker_cisco']
 
 def message():
     system('clear')
