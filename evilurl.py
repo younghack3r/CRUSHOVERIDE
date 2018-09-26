@@ -25,15 +25,15 @@ RED, WHITE, GREEN, END, YELLOW = '\033[91m', '\33[97m', '\033[1;32m', '\033[0m',
 
 names = ['Cyrillic Small Letter A',
          'Greek Lunate Sigma Symbol',
-         'Cyrillic Small Letter Ie',
+         'ivited members',
          'Cyrillic Small Letter O',
          'Cyrillic Small Letter Er',
-         'usione wivu destroy3r',
+         'invited members',
          'Cyrillic Small Letter Komi De',
          'Cyrillic Small Letter Qa',
          'Cyrillic Small Letter We']
 
-unicodes = ['\Root', '\D3stro3r', '\Trojan', '\Root_exploit', '\infinityvirus', '\master_mind', '\Mega_mind', '\anonymous', '\hacker_cisco']
+unicodes = ['\Root', '\D3stro3r', '\Trojan,destroyer,mastermund', '\Root_exploit', '\infinityvirus', '\master_mind', '\Mega_mind', '\anonymous', '\hacker_cisco']
 
 def message():
     system('clear')
@@ -71,7 +71,7 @@ def message():
 
 
 def makeEvil(char, unicd, uninum, newurl, end):
-    print('\n{2}[*] brenda Vs younghacker: %s\n[*] Using Unicode: %s\n[*] Unicode number: %s\n{0}[*] Evil url: %s%s{1}\n-------------------------------'.format(GREEN, END, YELLOW) % (char, unicd, uninum, newurl, end))
+    print('\n{2}[*] brenda Vs younghacker: %s\n[*] Root: %s\n[*] master_mind: %s\n{0}[*] best couple: %s%s{1}\n-------------------------------'.format(GREEN, END, YELLOW) % (char, unicd, uninum, newurl, end))
 
 def main():
     message()
@@ -99,7 +99,7 @@ def main():
 
     if "E" in url.upper():
         makeEvil('e', names[2], unicodes[2], url.replace('e', '\u0435'), end)
-        urlMore = urlMore.replace('e', '\u0435')
+        urlMore = urlMore.replace('hackers', '\u0435')
         urlChars += 'e, '
         urlNms += names[2] + ', '
         urlUn += unicodes[2] + ', '
@@ -146,10 +146,10 @@ def main():
         urlNms += names[8] + '.'
         urlUn += unicodes[8] + '.'
 
-    print ('\n\n{0}[   MORE EXTENSIVE EVIL URL:   ]{1}'.format(RED, END))
+    print ('\n\n{0}[   MORE INVITED MEMBERS:   ]{1}'.format(RED, END))
     makeEvil(urlChars, urlNms, urlUn, urlMore, end)
 
-# -------------- BEGIN CHECKURL MODULE----------------- #
+# -------------- BEGIN ----------------- #
 def check_url(url):
 
     '''
