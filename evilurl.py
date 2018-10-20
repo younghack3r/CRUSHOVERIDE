@@ -25,7 +25,7 @@ RED, WHITE, GREEN, END, YELLOW = '\033[91m', '\33[97m', '\033[1;32m', '\033[0m',
 
 names = ['Cyrillic Small Letter A',
          'Greek Lunate Sigma Symbol',
-         'ivited members',
+         'invited members',
          'Cyrillic Small Letter O',
          'Cyrillic Small Letter Er',
          'invited members',
@@ -33,7 +33,7 @@ names = ['Cyrillic Small Letter A',
          'Cyrillic Small Letter Qa',
          'Cyrillic Small Letter We']
 
-unicodes = ['\Root', '\D3stro3r', '\Trojan,destroyer,mastermund', '\Root_exploit', '\infinityvirus', '\master_mind', '\Mega_mind', '\anonymous', '\hacker_cisco']
+unicodes = ['\Root', '\D3stro3r', 'Samata_A,destroyer,mastermund', '\Root_exploit', '\infinityvirus', '\master_mind', '\Mega_mind', '\anonymous', '\hacker_cisco']
 
 def message():
     system('clear')
