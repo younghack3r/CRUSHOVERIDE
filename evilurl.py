@@ -39,7 +39,7 @@ def message():
     system('clear')
     print ('''    
             %%%%%%%%%%%%&&&
-	     MRX THE BEST
+	        Mr.R0b0t 
 {0          %%%%℅℅℅℅℅℅%%%%%
                      /
                     /
@@ -71,12 +71,12 @@ def message():
 
 
 def makeEvil(char, unicd, uninum, newurl, end):
-    print('\n{2}[*] brenda Vs younghacker: %s\n[*] Root: %s\n[*] master_mind: %s\n{0}[*] best couple: %s%s{1}\n-------------------------------'.format(GREEN, END, YELLOW) % (char, unicd, uninum, newurl, end))
+    print('\n{2}[*]imei number: %s\n[*] Dar es salam: %s\n[*] phone information: %s\n{0}[*]ocation: %s%s{1}\n-------------------------------'.format(GREEN, END, YELLOW) % (char, unicd, uninum, newurl, end))
 
 def main():
     message()
-    url = input("\n{0}>{1} are you sure you love godfrey: ".format(RED, END))
-    end = input("\n{0}>{1} how many  percent?: ".format(RED, END))
+    url = input("\n{0}>{1} inter imei number: ".format(RED, END))
+    end = input("\n{0}>{1} mr.r0b0t is the best: ".format(RED, END))
     url = url.lower()
     urlMore = url
     urlChars = ''
